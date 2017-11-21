@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <base href="http://localhost:3000" target="">
+        <title>Hot Girl</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">      
+    </head>
+    <body>
+        <div class="content">       
+            <div>
+                <input type="text" id="userName" placeholder="Your user">
+                <input type="text" id="txtFriend" placeholder="Your Friend">
+                <button class="" id="signup">SIGN UP</button>
+            </div>
+            <div class="box" id="box-user">
+                <ul class="list-user">
+                    <li class="user">KHOA PHAM</li>
+                    <li class="user">KHOA PHAM</li>
+                    <li class="user">KHOA PHAM</li>
+                    <li class="user">KHOA PHAM</li>
+                    <li class="user">KHOA PHAM</li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="box-message" contenteditable="true"></div>
+                <div class="box-action">
+                    <input type="text" name="" value="" id="txtMessage" placeholder="Please enter message">          
+                    <button type="" class="btnEmit">SEND</button>
+                    <div class="err">Please enter message</div>
+                </div>
+            </div>          
+        </div>
+        <script src="/js/jquery-3.1.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/main.js"></script>
+    </body>
+</html>

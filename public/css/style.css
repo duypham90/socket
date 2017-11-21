@@ -1,0 +1,60 @@
+#nav{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.content{
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#txtMessage{
+    width:100%;
+    height:35px;
+    border:1px solid #ccc;
+    border:0;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+#txtMessage:focus{
+    outline:none
+}
+.btnEmit{
+    position:absolute;
+    bottom:0;
+    right:0;
+    height: 37px;
+    border:1px solid #ccc;
+    border-right: 0;
+    border-top:0;
+    border-bottom: 0;
+}
+.err{
+    display: none;
+    color:red;
+}
+.box{
+    position: relative;
+    /*padding-left:10px;
+    padding-right:10px;*/
+    float: left;
+    width:290px;
+    height:300px;
+    border:1px solid #ccc;
+
+}
+#box-user{
+    width:30%;
+}
+.box-message{
+    width:260px;
+    height:242px;
+    padding:10px;
+}
+.box-message:focus{
+    outline: none
+}
+.active{
+    color:red;
+}
